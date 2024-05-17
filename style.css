@@ -1,0 +1,13 @@
+.first-middle-container {
+    background-color: darkcyan;
+}
+.carousel-inner {
+    height: 80vh;
+    overflow: hidden;
+}
+.carousel-item > img {
+    height: 80vh; /* Change this from 100vh to 80vh */
+    width: 100%; /* Ensure the image covers the width */
+    object-fit: cover; /* Keep this to maintain the aspect ratio */
+    object-position: center; /* Center the image if it needs to be cropped */
+}
